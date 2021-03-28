@@ -30,8 +30,7 @@ class _MyAppState extends State<MyApp> {
       ),
     ),
     AudioSource.uri(
-      Uri.parse(
-          "https://s3.amazonaws.com/scifri-episodes/scifri20181123-episode.mp3"),
+      Uri.parse("https://127.0.0.1/"),
       tag: AudioMetadata(
         album: "Science Friday",
         title: "A Salute To Head-Scratching Science",
@@ -40,7 +39,7 @@ class _MyAppState extends State<MyApp> {
       ),
     ),
     AudioSource.uri(
-      Uri.parse("https://s3.amazonaws.com/scifri-segments/scifri201711241.mp3"),
+      Uri.parse("https://127.0.1.1/"),
       tag: AudioMetadata(
         album: "Science Friday",
         title: "From Cat Rheology To Operatic Incompetence",
