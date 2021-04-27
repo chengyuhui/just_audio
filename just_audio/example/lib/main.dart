@@ -78,7 +78,7 @@ class _MyAppState extends State<MyApp> {
       print('A stream error occurred: $e');
     });
     try {
-      await _player.setAudioSource(_playlist);
+      await _player.setAudioSource(_playlist, initialIndex: 1, preload: false);
     } catch (e) {
       // Catch load errors: 404, invalid url ...
       print("Error loading playlist: $e");
